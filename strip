@@ -1,0 +1,10 @@
+#!/bin/bash
+#first bash skrip bois
+echo this is a test of the emergency bash system
+
+#loop through all filenames in the current directory
+for filename in $(ls $( pwd )); do
+	echo $filename;
+done
+
+echo this concludes the test of the emergency bash system
